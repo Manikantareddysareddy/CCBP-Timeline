@@ -1,0 +1,45 @@
+.chrono-container {
+  width: 80vw;
+  min-height: 100vh;
+  display: flex;
+}
+
+.main-heading1 {
+  color: #2b237c;
+  font-size: 30px;
+  font-family: 'Roboto';
+  width: 20%;
+  text-align: center;
+  line-height: 1.5;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+@media (max-width: 577px) {
+  .chrono-container {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+  }
+
+  .main-heading1 {
+    color: #2b237c;
+    font-size: 30px;
+    font-family: 'Roboto';
+    width: 70%;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+}
